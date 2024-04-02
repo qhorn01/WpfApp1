@@ -1,0 +1,96 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Hello World" Height="720" Width="1280">
+    <Grid>
+
+        <Image x:Name="trinbahnB" Source="/Trinbahn.png" Opacity="100" Margin="909,466,122,22" />
+        <Image x:Name="trinbahnF" Source="/TrinbahnG.png" Opacity="0" Margin="909,466,122,22" />
+        <Image x:Name="trinbahnC" Source="/TrinbahnP.png" Opacity="0" Margin="909,466,122,22" />
+
+        <RadioButton x:Name="p1F" Checked="p1F_Checked" GroupName="TrinbahnButtons" Margin="1034,579,176,81"></RadioButton>
+        <RadioButton x:Name="p1B" Checked="p1B_Checked" GroupName="TrinbahnButtons" Margin="1058,579,152,81"></RadioButton>
+        <RadioButton x:Name="p1C" Checked="p1C_Checked" GroupName="TrinbahnButtons" Margin="1085,579,125,81"></RadioButton>
+
+        <Image x:Name="richlandB" Source="/Richland.png" Opacity="100" Margin="746,344,238,76" ></Image>
+        <Image x:Name="richlandC" Source="/RichlandP.png" Opacity="0" Margin="746,344,238,76" />
+        <Image x:Name="richlandF" Source="/RichlandG.png" Opacity="0" Margin="746,344,238,76" ></Image>
+
+        <RadioButton x:Name="p2F" Checked="p2F_Checked" GroupName="RichlandButtons" Margin="839,486,371,174"></RadioButton>
+        <RadioButton x:Name="p2B" Checked="p2B_Checked" GroupName="RichlandButtons" Margin="867,486,343,174"></RadioButton>
+        <RadioButton x:Name="p2C" Checked="p2C_Checked" GroupName="RichlandButtons" Margin="894,486,316,174"></RadioButton>
+
+        <Image x:Name="henryB" Source="/Henry.png" Opacity="100" Margin="904,275,58,189" ></Image>
+        <Image x:Name="henryC" Source="/HenryP.png" Opacity="0" Margin="904,275,58,189" ></Image>
+        <Image x:Name="henryF" Source="/HenryG.png" Opacity="0" Margin="904,275,58,189" ></Image>
+
+        <RadioButton x:Name="p3F" Checked="p3F_Checked" GroupName="HenryButtons" Margin="1034,373,176,287"></RadioButton>
+        <RadioButton x:Name="p3B" Checked="p3B_Checked" GroupName="HenryButtons" Margin="1062,373,148,287"></RadioButton>
+        <RadioButton x:Name="p3C" Checked="p3C_Checked" GroupName="HenryButtons" Margin="1092,373,118,287"></RadioButton>
+
+        <Image x:Name="squireB" Source="/Squire.png" Opacity="100" Margin="902,24,1,344"></Image>
+        <Image x:Name="squireC" Source="/SquireP.png" Opacity="0" Margin="902,24,1,344"></Image>
+        <Image x:Name="squireF" Source="/SquireG.png" Opacity="0" Margin="902,24,1,344"></Image>
+
+        <RadioButton x:Name="p4F" Checked="p4F_Checked" GroupName="SquireButtons" Margin="1097,123,113,537"></RadioButton>
+        <RadioButton x:Name="p4B" Checked="p4B_Checked" GroupName="SquireButtons" Margin="1126,123,84,537"></RadioButton>
+        <RadioButton x:Name="p4C" Checked="p4C_Checked" GroupName="SquireButtons" Margin="1152,123,58,537"></RadioButton>
+
+        <Image x:Name="mackenzieB" Source="/Mackenzie.png" Opacity="100" Margin="602,179,266,248"></Image>
+        <Image x:Name="mackenzieC" Source="/MackenzieP.png" Opacity="0" Margin="602,179,266,248"></Image>
+        <Image x:Name="mackenzieF" Source="/MackenzieG.png" Opacity="0" Margin="602,179,266,248"></Image>
+
+        <RadioButton x:Name="p5F" Checked="p5F_Checked" GroupName="MackenzieButtons" Margin="746,275,464,385"></RadioButton>
+        <RadioButton x:Name="p5B" Checked="p5B_Checked" GroupName="MackenzieButtons" Margin="773,275,437,385"></RadioButton>
+        <RadioButton x:Name="p5C" Checked="p5C_Checked" GroupName="MackenzieButtons" Margin="798,275,412,385"></RadioButton>
+
+        <Image x:Name="middlingtonB" Source="/Middlington.png" Opacity="100" Margin="549,322,431,250" ></Image>
+        <Image x:Name="middlingtonC" Source="/MiddlingtonP.png" Opacity="0" Margin="549,322,431,250" ></Image>
+        <Image x:Name="middlingtonF" Source="/MiddlingtonG.png" Opacity="0" Margin="549,322,431,250" ></Image>
+
+        <RadioButton x:Name="p6F" Checked="p6F_Checked" GroupName="MiddlingtonButtons" Margin="605,358,605,302"></RadioButton>
+        <RadioButton x:Name="p6B" Checked="p6B_Checked" GroupName="MiddlingtonButtons" Margin="631,358,579,302"></RadioButton>
+        <RadioButton x:Name="p6C" Checked="p6C_Checked" GroupName="MiddlingtonButtons" Margin="655,358,555,302"></RadioButton>
+
+        <Image x:Name="shaqerB" Source="/Shaqer.png" Opacity="100" Margin="339,413,479,93"></Image>
+        <Image x:Name="shaqerC" Source="/ShaqerP.png" Opacity="0" Margin="339,413,479,93"></Image>
+        <Image x:Name="shaqerF" Source="/ShaqerG.png" Opacity="0" Margin="339,413,479,93"></Image>
+
+        <RadioButton x:Name="p7F" Checked="p7F_Checked" GroupName="ShaqerButtons" Margin="576,490,634,170"></RadioButton>
+        <RadioButton x:Name="p7B" Checked="p7B_Checked" GroupName="ShaqerButtons" Margin="601,490,609,170"></RadioButton>
+        <RadioButton x:Name="p7C" Checked="p7C_Checked" GroupName="ShaqerButtons" Margin="627,490,583,170"></RadioButton>
+
+        <Image x:Name="fredaB" Source="/Freda.png" Opacity="100" Margin="339,319,690,272"></Image>
+        <Image x:Name="fredaC" Source="/FredaP.png" Opacity="0" Margin="339,319,690,272"></Image>
+        <Image x:Name="fredaF" Source="/FredaF.png" Opacity="0" Margin="339,319,690,272"></Image>
+
+        <RadioButton x:Name="p8F" Checked="p8F_Checked" GroupName="FredaButtons" Margin="415,371,795,289"></RadioButton>
+        <RadioButton x:Name="p8B" Checked="p8B_Checked" GroupName="FredaButtons" Margin="438,371,772,289"></RadioButton>
+        <RadioButton x:Name="p8C" Checked="p8C_Checked" GroupName="FredaButtons" Margin="462,371,748,289"></RadioButton>
+
+        <Image x:Name="madisenB" Source="/Madisen.png" Opacity="100" Margin="304,210,620,358"></Image>
+        <Image x:Name="madisenC" Source="/MadisenP.png" Opacity="0" Margin="304,210,620,358"></Image>
+        <Image x:Name="madisenF" Source="/MadisenG.png" Opacity="0" Margin="304,210,620,358"></Image>
+
+        <RadioButton x:Name="p9F" Checked="p9F_Checked" GroupName="MadisenButtons" Margin="438,279,772,381"></RadioButton>
+        <RadioButton x:Name="p9B" Checked="p9B_Checked" GroupName="MadisenButtons" Margin="462,279,748,381"></RadioButton>
+        <RadioButton x:Name="p9C" Checked="p9C_Checked" GroupName="MadisenButtons" Margin="485,279,725,381"></RadioButton>
+
+        <Image x:Name="northwesternB" Source="/Northwestern.png" Opacity="100" Margin="403,119,590,429"></Image>
+        <Image x:Name="northwesternC" Source="/NorthwesternP.png" Opacity="0" Margin="403,119,590,429"></Image>
+        <Image x:Name="northwesternF" Source="/NorthwesternG.png" Opacity="0" Margin="403,119,590,429"></Image>
+
+        <RadioButton x:Name="p10F" Checked="p10F_Checked" GroupName="NorthwesternButtons" Margin="485,162,725,498"></RadioButton>
+        <RadioButton x:Name="p10B" Checked="p10B_Checked" GroupName="NorthwesternButtons" Margin="506,162,704,498"></RadioButton>
+        <RadioButton x:Name="p10C" Checked="p10C_Checked" GroupName="NorthwesternButtons" Margin="527,162,683,498"></RadioButton>
+
+        <Label Name="lblF" FontSize="50" Content="Forward: 0" Margin="0,0,729,550"></Label>
+        <Label Name="lblC" FontSize="50" Content="Compleat: 0" Margin="553,0,352,581"></Label>
+
+
+    </Grid>
+</Window>
